@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f4ec31-e8c8-45cd-a66a-ac3385e134c5" name="Changes" comment="Student_Roster class updated: Add method;">
+    <list default="true" id="03f4ec31-e8c8-45cd-a66a-ac3385e134c5" name="Changes" comment="Student_Roster class updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student_Roster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student_Roster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789407878856</updated>
-      <workItem from="1789407879995" duration="7145000" />
+      <workItem from="1789407879995" duration="10051000" />
     </task>
     <task id="LOCAL-00001" summary="Project Initialized &amp; Classes Created">
       <created>1789408237328</created>
@@ -87,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1789413275275</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Student_Roster class updated">
+      <created>1789423021278</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789423021278</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +119,7 @@
     <MESSAGE value="Setter methods created" />
     <MESSAGE value="Fixed formatting" />
     <MESSAGE value="Student_Roster class updated: Add method;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Student_Roster class updated: Add method;" />
+    <MESSAGE value="Student_Roster class updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Student_Roster class updated" />
   </component>
 </project>

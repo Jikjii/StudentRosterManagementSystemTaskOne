@@ -31,21 +31,20 @@ public class Student_Roster {
     }
 
 
-    public void print_average_grade(String studentID){
-        for (Student student : classRosterArrayList){
+    public void print_average_grade(String studentID) {
+        for (Student student : classRosterArrayList) {
             if (student.getStudentID().equals(studentID)) {
                 int[] grades = student.getGrades();
                 int sum = 0;
                 for (int grade : grades) {
                     sum += grade;
                 }
-
                 double average = (double) sum / grades.length;
-                System.out.printf("Average grade for this student is: ", studentID, average);
+                System.out.printf("Average grade for student %s: %.2f%n", studentID, average);
                 return;
             }
         }
-        System.out.println("Error: student with ID " + studentID + " was not found - try again");
+        System.out.println("Error: student with ID " + studentID + " was not found.");
     }
 
 
