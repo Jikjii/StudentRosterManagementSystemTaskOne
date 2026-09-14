@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f4ec31-e8c8-45cd-a66a-ac3385e134c5" name="Changes" comment="Project Initialized &amp; Classes Created">
+    <list default="true" id="03f4ec31-e8c8-45cd-a66a-ac3385e134c5" name="Changes" comment="Getter methods created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
     </list>
@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789407878856</updated>
-      <workItem from="1789407879995" duration="2343000" />
+      <workItem from="1789407879995" duration="3002000" />
     </task>
     <task id="LOCAL-00001" summary="Project Initialized &amp; Classes Created">
       <created>1789408237328</created>
@@ -59,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1789408237328</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Getter methods created">
+      <created>1789410325349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789410325349</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +85,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Initialized &amp; Classes Created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Initialized &amp; Classes Created" />
+    <MESSAGE value="Getter methods created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Getter methods created" />
   </component>
 </project>

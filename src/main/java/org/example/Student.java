@@ -8,7 +8,16 @@ public class Student {
 
         Student testStudent = new Student("0000112", "Gerlado", "Grell", "testemail@email.com", 25, new int[]{34,41,41});
 
-        System.out.println("Student age: " + testStudent.getAge() + "   Student name " + Arrays.toString(testStudent.getGrades()));
+        System.out.println("Student name: " + testStudent.getFirstName() + " StudentID: " + testStudent.getStudentID() + "    Student age: " + testStudent.getAge() + "   Student grades: " + Arrays.toString(testStudent.getGrades()));
+
+        testStudent.setStudentID("9998313");
+        testStudent.setFirstName("Alfonso");
+        testStudent.setGrades(new int[]{100, 123, 124});
+
+        System.out.println("Student name: " + testStudent.getFirstName() + " StudentID: " + testStudent.getStudentID() + "    Student age: " + testStudent.getAge() + "   Student grades: " + Arrays.toString(testStudent.getGrades()));
+
+
+
 }
 
     // fields
@@ -59,6 +68,29 @@ public class Student {
 
 
 
+    void setStudentID(String studentID){
+        this.studentID = studentID;
+    }
+
+    void setFirstName(String firstName){
+        this.firstName = firstName;
+    }
+
+    void setLastName(String lastName){
+        this.lastName = lastName;
+    }
+
+    void setEmail(String email){
+        this.email = email;
+    }
+
+    void setAge(int age){
+        this.age = age;
+    }
+
+    void setGrades(int[] grades){
+        this.grades = grades;
+    }
 
 
 }
