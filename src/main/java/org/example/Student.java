@@ -6,19 +6,14 @@ public class Student {
 
     public static void main(String[] args) {
 
-        Student testStudent = new Student("0000112", "Gerlado", "Grell", "testemail@email.com", 25, new int[]{34,41,41});
+        Student testStudent = new Student("1", "John", "Smith", "John1989@gmail.com", 20, new int[]{88, 79, 59});
+        testStudent.print();
 
-        System.out.println("Student name: " + testStudent.getFirstName() + " StudentID: " + testStudent.getStudentID() + "    Student age: " + testStudent.getAge() + "   Student grades: " + Arrays.toString(testStudent.getGrades()));
-
-        testStudent.setStudentID("9998313");
         testStudent.setFirstName("Alfonso");
-        testStudent.setGrades(new int[]{100, 123, 124});
+        testStudent.setGrades(new int[]{100, 90, 80});
+        testStudent.print();
 
-        System.out.println("Student name: " + testStudent.getFirstName() + " StudentID: " + testStudent.getStudentID() + "    Student age: " + testStudent.getAge() + "   Student grades: " + Arrays.toString(testStudent.getGrades()));
-
-
-
-}
+    }
 
     // fields
     private String studentID;
@@ -30,66 +25,84 @@ public class Student {
 
     // constructor
 
-    Student(String studentID, String firstName, String lastName, String email, int age, int[] grades) {
-        this.studentID = studentID;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.age = age;
-        this.grades = grades;
+//    public Student(String studentID, String firstName, String lastName, String email, int age, int[] grades) {
+//        this.studentID = studentID;
+//        this.firstName = firstName;
+//        this.lastName = lastName;
+//        this.email = email;
+//        this.age = age;
+//        this.grades = grades;
+//    }
+
+    public Student(String studentID, String firstName, String lastName, String email, int age, int[] grades) {
+        setStudentID(studentID);
+        setFirstName(firstName);
+        setLastName(lastName);
+        setEmail(email);
+        setAge(age);
+        setGrades(grades);
     }
 
 
     // Getter
 
-    String getStudentID(){
+    public String getStudentID(){
         return this.studentID;
     }
 
-    String getFirstName(){
+    public String getFirstName(){
         return this.firstName;
     }
 
-    String getLastName(){
+    public String getLastName(){
         return this.lastName;
     }
 
-    String getEmail(){
+    public String getEmail(){
         return this.email;
     }
 
-    int getAge(){
+    public int getAge(){
         return this.age;
     }
 
-    int[] getGrades(){
+    public int[] getGrades(){
         return this.grades;
     }
 
 
 
-    void setStudentID(String studentID){
+    public void setStudentID(String studentID){
         this.studentID = studentID;
     }
 
-    void setFirstName(String firstName){
+    public void setFirstName(String firstName){
         this.firstName = firstName;
     }
 
-    void setLastName(String lastName){
+    public void setLastName(String lastName){
         this.lastName = lastName;
     }
 
-    void setEmail(String email){
+    public void setEmail(String email){
         this.email = email;
     }
 
-    void setAge(int age){
+    public void setAge(int age){
         this.age = age;
     }
 
-    void setGrades(int[] grades){
+    public void setGrades(int[] grades){
         this.grades = grades;
+    }
+
+    public void print(){
+        System.out.println(getStudentID()
+                + "\tFirst Name: " + getFirstName()
+                + "\tLast Name: " + getLastName()
+                + "\tEmail: " + getEmail()
+                + "\tAge: " + getAge()
+                + "\tGrades: " + Arrays.toString(getGrades()).replace("[", "{").replace("]", "}"));
     }
 
 
