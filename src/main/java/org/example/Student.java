@@ -3,18 +3,6 @@ package org.example;
 import java.util.Arrays;
 
 public class Student {
-
-    public static void main(String[] args) {
-
-        Student testStudent = new Student("1", "John", "Smith", "John1989@gmail.com", 20, new int[]{88, 79, 59});
-        testStudent.print();
-
-        testStudent.setFirstName("Alfonso");
-        testStudent.setGrades(new int[]{100, 90, 80});
-        testStudent.print();
-
-    }
-
     // fields
     private String studentID;
     private String firstName;
@@ -24,16 +12,6 @@ public class Student {
     private int[] grades;
 
     // constructor
-
-//    public Student(String studentID, String firstName, String lastName, String email, int age, int[] grades) {
-//        this.studentID = studentID;
-//        this.firstName = firstName;
-//        this.lastName = lastName;
-//        this.email = email;
-//        this.age = age;
-//        this.grades = grades;
-//    }
-
     public Student(String studentID, String firstName, String lastName, String email, int age, int[] grades) {
         setStudentID(studentID);
         setFirstName(firstName);

@@ -56,21 +56,4 @@ public class Student_Roster {
             }
         }
     }
-
-//    public static void main(String[] args) {
-//        Student_Roster roster = new Student_Roster();
-//        roster.add("1", "John", "Smith", "John1989@gmail.com", 20, 88, 79, 59);
-//        roster.add("2", "Suzan", "Erickson", "Erickson_1990@gmailcom", 19, 91, 72, 85);
-//
-//        roster.print_all();
-//        roster.print_invalid_emails();
-//        roster.print_average_grade("1");
-//        roster.print_average_grade("9");
-//        roster.remove("2");
-//        roster.remove("2");
-//        roster.print_all();
-//    }
-
-
-
 }
